@@ -1,0 +1,17 @@
+<main>
+	<h1 class="title">{{title}}</h1>
+	<div class="created"><small>{{created}}</small></div>
+	<div class="author">by {{author}}</div>
+	<div class="clearfix">
+		<div class="subtitle">{{subtitle}}</div>
+	</div>
+	<hr>
+	{{{ markdown postId }}}
+	<hr>
+	<small>
+		Tags:
+		{{#each tags}}
+			<a href="/blog?tagged={{this}}"><span>{{this}}</span></a>&nbsp;
+		{{/each}}
+	</small>
+</main>

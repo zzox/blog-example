@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "description": "blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "lint": "standard"
+  },
+  "author": "tyler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "highlight.js": "^10.0.3",
+    "marked": "^1.0.0",
+    "node-env-file": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "standard": "^16.0.4"
+  }
+}

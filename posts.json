@@ -1,0 +1,12 @@
+{
+	"posts": [{
+		"id": "new-blog",
+		"title": "New Blog!",
+		"author": "tyler",
+		"subtitle": "Making a simple blog in less than 100 lines of express.js code that is lightweight and easy to maintain.",
+		"summary": "Too many technologies for the simplest concept",
+		"tags": ["dev", "express", "web", "js", "blog"],
+		"created": "January 20th, 2020",
+		"pic": ""
+	}]
+}

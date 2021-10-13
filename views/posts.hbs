@@ -1,0 +1,19 @@
+<h1 class="title-main">zzox</h1>
+<div class="subtitle-main">tech, music and video games</div>
+{{#each posts}}
+	<div class="card">
+		<a href="/blog/{{id}}">
+			<h1 class="card-title">{{title}}</h1>
+			<div class="created"><small>{{created}}</small></div>
+			<div class="author">by {{author}}</div>
+			<div class="clearfix">
+				<div class="subtitle">{{summary}}</div>
+			</div>
+			<small>
+				{{#each tags}}
+					<a href="/blog?tagged={{this}}"><span>{{this}}</span></a>&nbsp;
+				{{/each}}
+			</small>
+		</a>
+	</div>
+{{/each}}
